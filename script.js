@@ -160,7 +160,7 @@ document.querySelectorAll('.elemento').forEach((span, index) => {
         aplicacaoElemento.appendChild(titulo);
         aplicacaoElemento.appendChild(quebraDeLinha);
         aplicacaoElemento.appendChild(paragrafo);
-        aplicacaoElemento.classList.add('aplicacao');
+        /*aplicacaoElemento.classList.add('aplicacao');*/
         aplicacaoElemento.style.backgroundColor = corDeFundo;
 
     });
