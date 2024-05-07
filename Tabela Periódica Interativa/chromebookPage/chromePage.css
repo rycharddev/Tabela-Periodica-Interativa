@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #333;
+    align-items: center;
+  }
+
+  .aplicacao {
+    margin-top: 5vh;
+    background-color: white;
+    width: 55vh;
+    text-align: center;
+    padding: 2vh;
+    border-radius: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-small;
+  }
+  
+  .tabela-periodica {
+    position: relative;
+    width: 55vh;
+    height: 50vh;
+    margin: 5% auto;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  
+  .elemento {
+    position: relative;
+    display: inline-block;
+    width: 2.5vh;
+    height: 2.5vh;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    border-radius: 10%;
+    font-size: 1.25vh;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  
+  .elemento[data-grupo="1"] {
+    background-color: #a2d344;
+    color: white;
+  }
+  
+  .elemento[data-grupo="2"] {
+    background-color: #f1b300;
+    color: white;
+  }
+  
+  .elemento[data-grupo="3"] {
+    background-color: #eada00;
+    color: white;
+  }
+  
+  .elemento[data-grupo="4"] {
+    background-color: #4cb6ac;
+    color: white;
+  }
+  
+  .elemento[data-grupo="5"] {
+    background-color: #a2d344;
+    color: white;
+  }
+  
+  .elemento[data-grupo="6"] {
+    background-color: #70cbea;
+    color: white;
+  }
+  
+  .elemento[data-grupo="7"] {
+    background-color: #3e9ee4;
+    color: white;
+  }
+  
+  .elemento[data-grupo="8"] {
+    background-color: #a2c7d2;
+    color: white;
+  }
+  
+
+  /*define um atibuto quando o cursor esta em cima de algo com a class indicada*/
+  /*.elemento:hover {
+    background-color: #c6c6c6;
+  }*/
+  
+  .elemento[data-grupo="9"] {
+    background-color: #ea8f8e;
+    color: white;
+  }
+
+  .elemento[data-grupo="10"] {
+    background-color: #90e3e8;
+    color: white;
+    left: 9.2vh;
+    margin-top: 3vh;
+  }
+
+  .elemento[data-grupo="11"] {
+    background-color: #dcadd7;
+    color: white;
+    left: 9.2vh;
+  }
+
+  #proLado {
+    left: 3vh;
+  }
+
+  #proLadao {
+    left: 30.8vh;
+  }
+
+  #proLadaozao {
+    left: 49.3vh;
+  }

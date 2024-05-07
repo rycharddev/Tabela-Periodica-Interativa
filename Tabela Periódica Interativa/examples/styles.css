@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+  }
+  
+  .tabela-periodica {
+    width: 100%;
+    height: 100%;
+    margin: 100px;
+  }
+  
+  .elemento {
+    position: relative;
+    padding: 10px;
+    margin-left: -2px;
+    margin-right: -3px;
+    margin-bottom: -9px;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .elemento[data-grupo="1"] {
+    background-color: #dfe1ff;
+    color: #333;
+  }
+  
+  .elemento[data-grupo="2"] {
+    background-color: #f5f5dc;
+    color: #333;
+  }
+  
+  .elemento[data-grupo="3"] {
+    background-color: #e6e6fa;
+    color: #333;
+  }
+  
+  .elemento[data-grupo="4"] {
+    background-color: #e6e6fa;
+    color: #333;
+  }
+  
+  .elemento[data-grupo="5"] {
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  .elemento[data-grupo="6"] {
+    background-color: #ffe0cc;
+    color: #333;
+  }
+  
+  .elemento[data-grupo="7"] {
+    background-color: #90e0ff;
+    color: #333;
+  }
+  
+  .elemento[data-grupo="8"] {
+    background-color: #e6e6e6;
+    color: #333;
+  }
+  
+  .elemento:hover {
+    background-color: #c6c6c6;
+  }
+  
+  .elemento[data-grupo="9"] {
+    background-color: #ff6347;
+    color: #fff;
+  }
+
+  .elemento[data-grupo="10"] {
+    background-color: #ff6347;
+    color: #fff;
+  }
+
+  .elemento[data-grupo="11"] {
+    background-color: #ff6347;
+    color: #fff;
+  }
+
+  /*.elemento[data-periodo="1"] {
+    left: 0px;
+  }
+
+  .elemento[data-periodo="2"] {
+    left: 0px;
+  }
+
+  .elemento[data-periodo="3"] {
+    left: 0px;
+  }
+
+  .elemento[data-periodo="4"] {
+    left: 30px;
+  }
+
+  .elemento[data-periodo="5"] {
+    left: 40px;
+  }
+
+  .elemento[data-periodo="6"] {
+    left: 50px;
+  }
+
+  .elemento[data-periodo="7"] {
+    left: 60px;
+  }
+
+  .elemento[data-periodo="8"] {
+    left: 70px;
+  }
+
+  .elemento[data-periodo="9"] {
+    left: 80px;
+  }
+
+  .elemento[data-periodo="10"] {
+    left: 90px;
+  }
+
+  .elemento[data-periodo="11"] {
+    left: 100px;
+  }
+
+  .elemento[data-periodo="12"] {
+    left: 110px;
+  }
+
+  .elemento[data-periodo="13"] {
+    left: 120px;
+  }
+
+  .elemento[data-periodo="14"] {
+    left: 130px;
+  }
+
+  .elemento[data-periodo="15"] {
+    left: 140px;
+  }
+
+  .elemento[data-periodo="16"] {
+    left: 150px;
+  }
+
+  .elemento[data-periodo="17"] {
+    left: 160px;
+  }
+
+  .elemento[data-periodo="18"] {
+    left: 170px;
+  }
+*/
